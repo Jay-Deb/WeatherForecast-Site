@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Weather</h2>
+      <input type="text" id="cityInput" placeholder="Enter location..." />
+      <button onclick="getWeather()">Search</button>
+      <div class="weather-info">
+        <img id="weatherIcon" src="assets/clear.png" alt="Weather Icon" width="100" />
+        <h1 id="temperature">--°C</h1>
+        <p id="condition">--</p>
+        <p id="location">City, Country</p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header>
+        <h2>Welcome back!</h2>
+        <p>Check out today's weather information</p>
+      </header>
+
+      <section class="hourly-forecast">
+        <h3>Upcoming Hours</h3>
+        <div id="hourlyChart"></div>
+      </section>
+
+      <section class="details">
+        <div class="card"><p>City</p><h3 id="detail_city">--</h3></div>
+        <div class="card"><p>Cloud</p><h3 id="detail_cloud">--%</h3></div>
+        <div class="card"><p>Feels Like</p><h3 id="detail_feels">--°C</h3></div>
+        <div class="card"><p>Humidity</p><h3 id="detail_humidity">--%</h3></div>
+        <div class="card"><p>Max Temp</p><h3 id="detail_max">--°C</h3></div>
+        <div class="card"><p>Min Temp</p><h3 id="detail_min">--°C</h3></div>
+        <div class="card"><p>Sunrise</p><h3 id="detail_sunrise">--</h3></div>
+        <div class="card"><p>Sunset</p><h3 id="detail_sunset">--</h3></div>
+        <div class="card"><p>Temp</p><h3 id="detail_temp">--°C</h3></div>
+        <div class="card"><p>Wind</p><h3 id="detail_wind">--°</h3></div>
+      </section>
+
+      <section class="common-weather">
+        <h3>Weather of other common places</h3>
+        <table id="commonTable">
+          <thead>
+            <tr>
+              <th>City</th>
+              <th>Cloud</th>
+              <th>Feels Like</th>
+              <th>Humidity</th>
+              <th>Max Temp</th>
+              <th>Min Temp</th>
+              <th>Sunrise</th>
+              <th>Sunset</th>
+              <th>Temp</th>
+              <th>Wind</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
