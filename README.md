@@ -2,7 +2,7 @@
 
 A beautifully designed and responsive weather forecasting web application that displays real-time weather data, hourly predictions, and detailed atmospheric conditions for cities around the world. The project is built using **HTML5**, **CSS3** , **JavaScript** and integrates with the **OpenWeatherMap API**.
 
-> 🔗 **Live Site:** [https://jay-deb.github.io/WeatherForecast-Site/](https://jay-deb.github.io/WeatherForecast-Site/)
+🔗 **Live Site:** [https://jay-deb.github.io/WeatherForecast-Site/](https://jay-deb.github.io/WeatherForecast-Site/)
 
 ---
 
@@ -38,7 +38,6 @@ A beautifully designed and responsive weather forecasting web application that d
 - Integrated search bar with icon inside input
 - Smooth scrollable hourly weather chart
 
----
 
 ## 🧱 Tech Stack
 
@@ -50,43 +49,19 @@ A beautifully designed and responsive weather forecasting web application that d
 | OpenWeatherMap | Weather API integration      |
 | GitHub Pages   | Hosting and deployment       |
 
----
 
-## 🧩 Folder Structure
-
-WeatherForecast-Site/
-├── assets/
-│ ├── clear.png
-│ ├── cloud.png
-│ └── snow.png
-│
-├── index.html # Main HTML structure
-├── style.css # Styling and responsive design
-├── script.js # API logic and interactivity
-└── README.md
-
----
-
-## 🔧 Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/jay-deb/WeatherForecast-Site.git
-cd WeatherForecast-Site
----
-
-##💡 Future Enhancements
+## 💡 Future Enhancements
 - Multi-language support
 - Location-based weather (using Geolocation API)
 - Weather-based background themes
 - Weekly forecast and radar maps
 
-##🙌 Acknowledgements
+
+## 🙌 Acknowledgements
 - OpenWeatherMap API
 - Icons by OpenWeatherMap and custom assets
 
-##👨‍💻 Author
+## 👨‍💻 Author
 Jay Deb
 📧 jaydeb72004@gmail.com
 🌐 https://github.com/Jay-Deb
